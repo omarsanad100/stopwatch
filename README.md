@@ -11,8 +11,10 @@ This project is a simple **stopwatch** built using React fundamentals and hooks.
 
 ## Built With
 
+- HTML
 - CSS
-- React
+- Javascript
+- React.js
 
 ## Author
 
