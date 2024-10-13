@@ -45,13 +45,16 @@ const Stopwatch = () => {
   return (
     <div className="stopwatch">
       <div className={styles.display}>{handleFormatTime()}</div>
+
       <div className={styles.control}>
         <button onClick={handleStart} className={styles.startBtn}>
           Start
         </button>
+
         <button onClick={handleStop} className={styles.stopBtn}>
           Stop
         </button>
+
         <button onClick={handleRest} className={styles.resetBtn}>
           Reset
         </button>
